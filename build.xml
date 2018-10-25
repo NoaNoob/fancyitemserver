@@ -1,0 +1,12 @@
+<target name = "build-war">
+   <war destfile = "fancyshop.war" webxml = "WebContent/WEB-INF/web.xml">
+      <fileset dir = "/WebContent">
+         <include name = "**/*.*"/>
+      </fileset>
+      
+      <lib dir = "WebContent/WEB-INF/lib">
+      </lib>
+      
+      <classes dir = "/target"/>
+   </war>
+</target>
