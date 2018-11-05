@@ -13,7 +13,7 @@ import javax.ws.rs.container.Suspended;
 public class ItemService {
 
 	static String[] colours = { "rot", "gelb", "blau", "grün", "orange", "schwarz", "rosa" };
-	static String[] names = { "Pullover", "Hose", "Schlüppi", "Mütze", "Schuhe" };
+	static String[] names = { "Pullover", "Hose", "Schlüppi", "Mütze", "Schuhe", "Jacke" };
 	static Random random = new Random();
 
 	@GET
